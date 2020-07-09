@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/shoplist.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="layui-main head">
+            <div class="head-item">
+                <div class="logo">网易云课堂</div>
+                <ul>
+                    <li>课程分类 <i class="fa fa-angle-down"></i> </li>
+                    <li>微专业</li>
+                    <li> <i class="fa fa-gift"></i> 关注领福利</li>
+                </ul>
+            </div>
+            <div class="head-item item-left">
+                <input type="text" name="" id="" class="layui-input" placeholder="搜索课程">
+                <span>课程 <i class="fa fa-angle-down"></i></span>
+                <div class="head-right">
+                    <div>我的学习
+                        <i class="fa fa-bell "></i>
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                    <div>
+                        老夫子
+                        <img src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3170788280,2078802227&fm=26&gp=0.jpg"
+                            class="layui-nav-img" style="margin-left: 10px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 内容 -->
+    <div class="lly_shopBox layui-main">
+        <div class="lly_myshoplist">
+            <p>我的购物车</p>
+            <p>共1门课程</p>
+        </div>
+        <div class="layui-row lly_shopHead layui-main">
+            <div class="layui-col-lg2">
+                <input type="radio" />
+                <span>全选</span>
+            </div>
+            <div class="layui-col-lg4">
+                课程名称
+            </div>
+            <div class="layui-col-lg3">
+                学期或课程有效期
+            </div>
+            <div class="layui-col-lg1">
+                单价（元）
+            </div>
+
+        </div>
+        <!-- 机构 -->
+        <div class="layui-row   layui-main  lly_shopContent">
+            <!-- 内容头部 -->
+            <div class="layui-row layui-col-lg2 lly_shopContent_head">
+                <input type="checkbox" />
+                <span>机构 别Young职场</span>
+            </div>
+            <!-- 内容主体 -->
+            <div class="layui-row  layui-col-lg12 lly_shopContent_body ">
+                <div class="layui-col-lg2">
+                    <input type="checkbox" />
+                    <div>
+                        <img src="../images/01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="layui-col-lg4">
+                    升职加薪：新人职业发展必备技能
+                </div>
+                <div class="layui-col-lg3">
+                    永久有效
+                </div>
+                <div class="layui-col-lg1">
+                    129
+                </div>
+                <div class="layui-col-lg2">
+                    <i class="fa fa-trash lly_del" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!-- 机构小计 -->
+            <div class="layui-row layui-col-lg12 lly_countBox" >
+                <div class="layui-col-lg2 layui-col-lg-offset10 lly_count">
+                    该机构小计:￥0.00
+                </div>
+            </div>
+            <!-- 结算 -->
+            <div class="layui-row  lly_sumBox layui-col-lg12">
+                <div class="layui-col-lg2 ">
+                    <input type="radio" />
+                    <span>全选</span>
+                </div>
+                <div class="layui-col-lg5 lly_sum layui-col-lg-offset4">
+                    合计:<span>￥0.00</span>
+                    <p>(若购买享有优惠，相应金额将在订单结算页面加减)</p>
+                </div>
+                <div class="layui-col-lg1 lly_sumbtn">
+                    <div>去结算</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/jquery-3.4.1/jquery-3.4.1.js"></script>
+    <script src="lib/layui/layui.all.js"></script>
+</body>
+
+</html>
